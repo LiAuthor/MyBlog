@@ -62,9 +62,9 @@
       
         <tags>
             
-            <tag> C++ </tag>
-            
             <tag> Python </tag>
+            
+            <tag> C++ </tag>
             
             <tag> STL </tag>
             
@@ -170,7 +170,7 @@
     
     
     <entry>
-      <title>优化算法与Logistic回归</title>
+      <title>优化算法与逻辑回归</title>
       <link href="/2019/02/03/Logistic%E5%9B%9E%E5%BD%92/"/>
       <url>/2019/02/03/Logistic%E5%9B%9E%E5%BD%92/</url>
       
@@ -298,9 +298,9 @@
       
         <tags>
             
-            <tag> C++ </tag>
-            
             <tag> ALG </tag>
+            
+            <tag> C++ </tag>
             
             <tag> STL </tag>
             
