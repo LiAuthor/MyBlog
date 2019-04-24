@@ -229,9 +229,15 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin EXAMPLE</span><br></pre></td></tr></table></figure>
 <p>8.删除远程(origin)分支</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete EXAMPLE</span><br></pre></td></tr></table></figure>
-<p>9.添加远程仓库</p>
+<h2 id="仓库操作相关命令"><a href="#仓库操作相关命令" class="headerlink" title="仓库操作相关命令"></a>仓库操作相关命令</h2><ol>
+<li><p>添加远程仓库</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 地址</span><br></pre></td></tr></table></figure>
-<p><em>地址可以是HTTPS或者SSH</em></p>
+</li>
+<li><p>查看远程仓库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>地址可以是HTTPS或者SSH*</p>
 <p><a href="https://www.cnblogs.com/ydxblog/p/7988317.html" target="_blank" rel="noopener">参考文档</a></p>
 <h2 id="我曾出现的问题"><a href="#我曾出现的问题" class="headerlink" title="我曾出现的问题"></a>我曾出现的问题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error:src refspec master does not match any</span><br></pre></td></tr></table></figure>
 <p>解决:引起该错误的原因是，目录中没有文件，空目录是不能提交上去的，而且在push之前至少有过一次commit</p>
@@ -247,10 +253,10 @@
     <div class="new-meta-box">
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-03-20T21:11:32+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-04-16T18:51:45+08:00">
   <a class="notlink">
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>最后更新于 2019年3月20日</p>
+    <p>最后更新于 2019年4月16日</p>
   </a>
 </div>
 
@@ -332,16 +338,16 @@
                         <span class="art-item-right" aria-hidden="true">
                             <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
                             <h4>
-                                <a href="/2019/03/04/笔记/" rel="prev" title="Note">
+                                <a href="/2019/03/04/笔记/" rel="prev" title="EveryDay Note">
                                     
-                                        Note
+                                        EveryDay Note
                                     
                                 </a>
                             </h4>
                             
                                 
                                 <h6 class="tags">
-                                    <a class="tag" href="/tags/Python/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Python</a> <a class="tag" href="/tags/C/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C++</a> <a class="tag" href="/tags/STL/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>STL</a> <a class="tag" href="/tags/ACM/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>ACM</a>
+                                    <a class="tag" href="/tags/C/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C++</a> <a class="tag" href="/tags/Python/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Python</a> <a class="tag" href="/tags/STL/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>STL</a> <a class="tag" href="/tags/ACM/"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>ACM</a>
                                 </h6>
                             
                         </span>
@@ -488,7 +494,7 @@
 </header>
 
     <div class="content pure">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#分支操作相关命令"><span class="toc-text">分支操作相关命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#我曾出现的问题"><span class="toc-text">我曾出现的问题</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#分支操作相关命令"><span class="toc-text">分支操作相关命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#仓库操作相关命令"><span class="toc-text">仓库操作相关命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#我曾出现的问题"><span class="toc-text">我曾出现的问题</span></a></li></ol>
     </div>
   </section>
 
